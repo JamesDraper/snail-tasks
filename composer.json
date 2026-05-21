@@ -1,4 +1,7 @@
 {
+    "bin": [
+        "snail-tasks"
+    ],
     "autoload": {
         "psr-4": {
             "SnailTasks\\": "src"
@@ -8,6 +11,10 @@
         "psr-4": {
             "Tests\\": "tests"
         }
+    },
+    "require": {
+        "composer-runtime-api": "^2.2",
+        "symfony/console": "^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^13.1"
