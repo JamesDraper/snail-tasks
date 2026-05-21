@@ -4,6 +4,7 @@ include $_composer_autoload_path ?? (__DIR__ . '/vendor/autoload.php');
 
 $application = new \Symfony\Component\Console\Application();
 
-//
+$application->addCommand(new \SnailTasks\Internal\Commands\StartCommand());
+$application->addCommand(new \SnailTasks\Internal\Commands\StopCommand());
 
 $application->run();
