@@ -1,4 +1,5 @@
 /vendor/*
+/notes/*
 
 /.phpunit.result.cache
 /composer.lock
